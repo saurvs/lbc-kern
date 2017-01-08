@@ -1,0 +1,14 @@
+Note: this is a port in progress. For example, __div, __pow, __tostring, and maybe other
+metamethods don't yet work.
+
+-------------------------------------------------------------------------------
+
+bc library:
+ __add(x,y) 	 __pow(x,y) 	 digits([n]) 	 mul(x,y) 	 sub(x,y) 
+ __div(x,y) 	 __sub(x,y) 	 div(x,y) 	 neg(x) 	 tonumber(x) 
+ __eq(x,y) 	 __tostring(x) 	 divmod(x,y) 	 number(x) 	 tostring(x) 
+ __lt(x,y) 	 __unm(x) 	 isneg(x) 	 pow(x,y) 	 trunc(x,[n]) 
+ __mod(x,y) 	 add(x,y) 	 iszero(x) 	 powmod(x,y,m) 	 version 
+ __mul(x,y) 	 compare(x,y) 	 mod(x,y) 	 sqrt(x) 
+
+-------------------------------------------------------------------------------
